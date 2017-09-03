@@ -3,8 +3,10 @@
 The original data comes from "Human Activity Recognition Using Smartphones Data Set". Information at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#. 
 Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
+The original data is merged together to create one dataset. Only mean and standard deviation variables are selected. Variable names are labeled properly. 
+
 ## tidydata.txt
-After running the run_analysis.R script the tidydata.txt dataset is acquired. This data contains a number of variables listed below. Information on the exact meaning of the variables can be found in the features_info.txt file within the original UCI HAR Dataset dataset.
+After running the run_analysis.R script the tidydata.txt dataset is acquired. This data contains a number of variables listed below. Information on the exact meaning of the variables can be found in the features_info.txt file within the original UCI HAR Dataset dataset. This dataset can be loaded using read.table("tidydata.txt", header = T)
 
 rn |"column.names" | "class" | "range" | "mean"
 |---|---			|---	  |---		|---   |
