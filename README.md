@@ -22,9 +22,13 @@ Good luck!
 
 ## Contents of this repo
 -tidydata.txt: this is the final dataset that is required for the assignment
+
 -run_analysis.R: the R script used to create tidydata.txt
+
 -README.md: what you are reading now
+
 -codebook.md: this has descriptions of the variables in tidydata.txt
+
 
 ## How to use the R script
 Make sure your working directory is set to where you want to execute the script. Then simply run the script. The script itself has explanations on why certain things are done. Also make sure the right packages are installed. 
